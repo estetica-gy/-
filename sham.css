@@ -1,0 +1,83 @@
+/* Estilos para el encabezado */
+header {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    text-align: center;
+    background-color: #A45D83;
+    color: aliceblue;
+}
+
+/* Estilos para la barra de navegación */
+.div1 {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    margin-top: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 3em;
+    text-align: center;
+    background-color: #FFCDE8;
+}
+
+/* Margen superior para separar las tarjetas del encabezado */
+.row {
+    margin-top: 30px;  /* Espacio entre el header y las tarjetas */
+}
+
+/* Estilos para las tarjetas */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: #ffffff;
+    width: 280px;  /* Ancho fijo */
+    height: 450px; /* Altura fija */
+    margin: auto;  /* Centrar las tarjetas horizontalmente */
+}
+
+/* Animación al pasar el ratón por encima */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo de la imagen de la tarjeta */
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    height: 200px; /* Altura fija para la imagen */
+}
+
+/* Estilos para el cuerpo de la tarjeta */
+.card-body {
+    text-align: center;
+    padding: 15px;
+}
+
+/* Estilo para el título */
+.card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #A45D83;
+}
+
+/* Estilo para el texto */
+.card-text {
+    color: #666666;
+    font-size: 0.95em;
+    margin-bottom: 15px;
+}
+
+/* Estilo para el botón */
+.btn-primary {
+    background-color: #A45D83;
+    border-color: #A45D83;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #843c63;
+    transform: translateY(-2px);
+}

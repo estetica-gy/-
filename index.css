@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    background-color:#FFF8F1;
+}
+
+header{
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    text-align: center;
+    background-color: #A45D83;
+    color: aliceblue;
+}
+.div1{ 
+    padding-top: 0.3em;
+    padding-bottom: 0.3em; 
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 3em;
+    text-align: center;
+    background-color: #FFCDE8;
+}
+.div2{
+    font-family: "Platypi", serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #A45D83;
+        margin-left: 10%;
+        margin-top: 5%;
+        align-items: center;
+}
+.contenedor-imagenes {
+    display: flex;
+    margin-left: 60%;
+    margin-top: 1%;
+  }
+
+.card{
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 1em;
+}
